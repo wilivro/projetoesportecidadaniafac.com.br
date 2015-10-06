@@ -1,0 +1,244 @@
+/*
+Theme Name: FAC blog
+Theme URI: http://fac.blog.com.br
+Description: Este tema foi desenvolvido para o projeto FAC
+Author: Matheus Mesquita
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style, custom-menu
+Text Domain: FACblog
+*/
+
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+/*reset*/
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:url(layout/menu.png) repeat-x scroll 0px 240px white;
+}
+
+
+/*header*/
+
+#header{
+	height: 277px;
+	width: 998px;
+	margin: 0 auto;
+}
+#header_logo{
+	width: 320px;
+	height: 140px;
+	margin: 60px 0 0 28px;
+	position: absolute;
+}
+
+/*menu*/
+
+
+
+/*content*/
+
+#menu {
+width: 998px;
+height: 54px;
+position: absolute;
+margin-top: 245px;
+}
+#menu ul{
+	margin:10px 0 0 20px !important;
+	padding:0;
+	list-style: none;
+	float:left;
+	width:998px;
+	margin:10px 150px;
+}
+#menu ul li {
+display: inline;
+float: left;
+padding: 0px;
+margin: 10px 17px;
+} 
+#menu ul li a{
+	text-decoration:none;
+	color:#000;
+	font:12px "Trebuchet MS";
+	font-weight:bold;
+	text-transform:uppercase;
+	padding: 3px;
+	cursor: pointer;
+}
+#menu ul li a:hover{
+	background:#b5b5b5;
+	color:white;
+}
+		
+/*content*/
+#content_bloco {
+font-family:"Trebuchet MS";
+margin: 30px 0 35px 0;
+float: right;
+display: block;
+width: 534px;
+}
+#content_bloco h1{
+font-size:23px;
+text-align:left;
+color: #666666;
+}
+#content_bloco p{
+font-size:13px;
+text-align:justify;
+margin: 7px 0;
+}
+#content_bloco img{
+margin: -10px 0;
+}
+#content_bloco h2{
+	font-size:18px;
+	text-align:left;
+	color: #666666;
+
+}
+
+/*sidebar*/
+#fiqueLigado{
+	font-size: 16px !important;
+	color: #666666;
+	text-align: center !important;
+	margin: 10px 0 !important;
+}
+#vagasLimitadas{
+	font-size: 16px !important;
+	color: #666666;
+	text-align: center !important;
+	margin: 10px auto !important;	
+}
+#content_sidebar {
+display: block;
+float: left;
+margin: -2px 0 0 3px;
+background: #E3E3E3;
+padding: 0px;
+width: 296px;
+height: 427px;
+}
+
+#formAluno a, #formAluno img{
+	border: 0 none;
+}
+
+#content_sidebar_out {
+background: #B5B5B5;
+display: block;
+float: left;
+margin: 17px 0 0 36px;
+padding: 2px;
+width: 302px;
+height: 427px;
+}
+
+/*sidebar itens*/
+
+.sidebar_itens {
+float: left;
+background: #999999;
+margin: 8px 0px 21px 29px;
+width: 240px;
+height: 105px;
+display: block;
+padding: 0px;
+border: 0 none;
+}#aluno{
+float: left;
+background: #999999;
+margin: 22px 0px 21px 29px;
+width: 240px;
+height: 125px;
+display: block;
+padding: 0px;
+
+}
+
+
+#sidebar_clique_aqui {
+float: left;
+background: url(layout/clique_aqui_botao.png);
+margin: 17px 12px;
+width: 281px;
+height: 91px;
+background-repeat:no-repeat;
+}#sidebar_clique_aqui:hover{
+background-position:0px -93px;
+}
+
+#content_sidebar a{
+	text-decoration:none;
+	color:#4D4D4D;
+}
+
+/*Login e Senha*/
+
+.login{
+	float:left;
+	width:213px;
+	height: 29px;
+	margin: 3px 12px;
+	background-image:url(layout/campo-texto.png);
+}.login label {
+float: left;
+margin: 6px 12px;
+font: 15px Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: black;
+}.login input {
+margin: 5px -2px;
+float: left;
+border: none;
+height: 22px;
+width: 143px;
+}
+
+.password{
+	float:left;
+	width:213px;
+	height: 29px;
+	margin: 3px 12px;
+	background-image:url(layout/campo-texto.png);
+}.password label {
+float: left;
+margin: 6px 10px;
+font: 15px Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: black;
+}.password .senha {
+margin: 5px -2px;
+float: left;
+width: 100px;
+border: none;
+height: 22px;
+}.password .botao {
+float: right;
+margin: 7px 8px 0px 0px;
+text-transform: none;
+width: 37px;
+height: 17px;
+border: none;
+background: url(layout/botao-ok.png) no-repeat scroll 0 0 transparent;
+}.password .botao:hover{
+cursor:pointer;
+}
+
+/*Main content*/
+
+#main_content{
+margin:0 auto;
+width:998px;
+height:100%;
+}
